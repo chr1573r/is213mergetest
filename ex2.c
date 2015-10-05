@@ -9,7 +9,7 @@ int main (void)
 	struct timeval tv; // struct for keeping time later in the timer
 	fd_set readfds;    //  filedescriptor to be used to check if data is ready to be read 
 	int ret;
-
+	/* Legger inn en kommentar*/
 	/* Wait on stdin for input. */
 	FD_ZERO(&readfds); 
 	FD_SET(STDIN_FILENO, &readfds);
